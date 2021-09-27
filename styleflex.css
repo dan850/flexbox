@@ -4,28 +4,13 @@
 body{
 	
 	font-family: "nunito";	
+	margin: auto;
 }
 
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  background-color: DodgerBlue;
-}
+
 	
-	.flex-container>div {
-  background-color: #f1f1f1;
-  color: white;
-  width: 100px;
-  height: 100px;
-  padding:10px;
-  margin:10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-  color: black;
-}
+	
+
 
 .flex-smallbox {
   display: flex;
@@ -57,11 +42,12 @@ body{
 .flex-container-funthings {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 10px;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
+  align-items: right;
   height: 300px;
+	width: 200;
+	padding: auto;
   background-color: gray;
 }
 
@@ -104,7 +90,7 @@ body{
 
 
 .flex-item-left {
-  flex: 50%;
+  flex: 25%;
 }
 
 .flex-item-right {
@@ -114,6 +100,6 @@ body{
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 800px) {
   .flex-item-right, .flex-item-left {
-    flex: 100%;
+    flex: 50%;
   }
 }
