@@ -91,7 +91,7 @@ body{
 @media only screen
 
 and (device-width : 800px) 
-    and (device-height : 812px) 
+    and (device-height : 412px) 
     and (-webkit-device-pixel-ratio : 3)
 {
   .flex-container {
