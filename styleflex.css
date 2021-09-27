@@ -92,7 +92,7 @@ body{
 
 and (device-width : 800px) 
     and (device-height : 412px) 
-    and (-webkit-device-pixel-ratio : 3)
+ 
 {
   .flex-container {
     flex-direction: column;
