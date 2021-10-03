@@ -46,8 +46,7 @@ body{
   justify-content: center;
   align-items: right;
   height: 300px;
-	width: 200;
-	padding: auto;
+  padding: auto;
   background-color: gray;
 }
 
@@ -85,8 +84,9 @@ body{
 }
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
-@media (max-width: 800px) {
-  .flex-item-right, .flex-item-left {
-    flex: 100%;
+@media screen and (max-width: 700px) {
+  .flex-container-funthings, .flex-smallbox {   
+    flex-direction: column;
+	height: 600px;
   }
 }
