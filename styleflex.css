@@ -90,7 +90,7 @@ text-align: center;
   .flex-container-funthings, h1 {   
       flex-wrap: nowrap;
 	  flex-direction: column;
-	  width: auto;
+	  width: 800px;
 	  height: auto;
 	  margin: auto;
 	  padding: 30px;
