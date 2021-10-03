@@ -87,7 +87,7 @@ text-align: center;
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media screen and (max-width: 812px) {
-  .flex-container-funthings {   
+  .flex-container-funthings, h1 {   
       flex-wrap: nowrap;
 	  flex-direction: column;
 	  width: auto;
