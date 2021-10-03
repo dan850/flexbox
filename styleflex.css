@@ -89,7 +89,7 @@ body{
       flex-wrap: nowrap;
 	  flex-direction: column;
 	  width: auto;
-	  height: 1000px;
+	  height: auto;
 	  margin: auto;
 	  padding: 30px;
   }
